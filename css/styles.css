@@ -1,0 +1,240 @@
+.navigation-lists a:hover , .addresses a:hover {
+    color: blue;
+}
+a:visited {
+    color: brown;
+}
+button:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+a:focus {
+    color: blue;
+}
+button:focus {
+    background-color: blue;
+}
+body {
+    font-family: 'Roboto', sans-serif; 
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 107.143%;
+    letter-spacing: 1.12px;
+}
+.nav-lists-studio a:visited {
+    color: brown;
+}
+.nav-lists-portfolio a:visited {
+    color: brown;
+}
+.nav-lists-contacts a:visited {
+    color: brown;
+}
+.main {
+    background-color: #2E2F42;
+}
+.navigation-lists li a {
+    text-decoration: none;
+    color: #2E2F42;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+}
+.navigation-lists, .addresses {
+    list-style: none;
+}
+.addresses a {
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+    text-decoration: none;
+}
+.addresses a:visited {
+    color: brown;
+}
+.order-service-button {
+    background-color: #4D5AE5;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 16px 32px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.64px;
+    font-size: 16px;
+    color: white;
+}
+
+.feature-lists li h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: 264px;
+    color: #2E2F42;
+    width: 264px
+}
+.feature-lists li p {
+    width: 264px;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+    color: #434455;
+}
+.feature-lists {
+    list-style: none;
+}
+.products-and-services-maintext {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 111.111%;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    font-size: 36px;
+    text-align: center;
+    color: #2E2F42;
+}
+.products-and-services-details {
+    width: 360px;
+    list-style: none
+}
+.our-members {
+    background-color: #F4F4FD;
+}
+.member-lists {
+    list-style: none;
+}
+.mark-guerrero-img, .tom-ford-img, .camila-garcia-img, .daniel-wilson-img {
+    width: 264px;
+}
+.member-lists li h3 {
+    color: #2E2F42;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0.4px;
+    font-size: 20px;
+}
+.member-lists li p {
+    color: 434455;
+    text-align: center;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+    font-size: 16px;
+}
+footer {
+    background-color: #2E2F42;
+}
+.footer-description {
+    color: #F4F4FD;
+    width: 264px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+    font-size: 16px;
+}
+footer a {
+    color: white;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 116.667%;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.span-web {
+    color: #4D5AE5;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 116.667%;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.team-members-section-maintext {
+    color: #2E2F42;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 111.111%;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    font-size: 36px;
+}
+.all-button {
+    color: #FFF;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    background-color: #404BBF;
+    display: flex;
+    align-items: flex-start;
+    padding: 12px 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.64px;
+    font-size: 16px;
+    display: flex;
+    align-items: flex-start;
+    padding: 12px 24px;
+}
+.web-site-button, .app-button, .design-button, .marketing-button {
+    color: #4D5AE5;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.64px;
+    font-size: 16px;
+    border-radius: 4px;
+    background: var(--cloud, #F4F4FD);
+    border: 1px solid var(--cornflower, #E7E9FC);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+}
+.all-services li {
+    list-style: none;
+    
+}
+.all-services li h3 {
+    color: #2E2F42;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0.4px;
+    font-size: 20px;
+}
+.all-services li p {
+    color: #434455;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+    font-size: 16px;
+}
+.main-part-button button:hover {
+    color: white;
+}
