@@ -1,29 +1,156 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  :root {
+    --iris: #4D5AE5;
+    --navyblue: #2E2F42;
+    --black: black;
+    --ocean: #404BBF;
+    --white: #FFFFFF;
+    --slate: #434455;
+    --cornflower: #E7E9FC;
+    --cloud: #F4F4FD;
+    --green: #31D0AA;
+    --lightslate: #8E8F99;
+    --navybluemodal: #2E2F42;
+    --grey: #2E2F42;
+    --dairy: #FCFCFC;
+  }
+.iris {
+    color: var(--iris, #4D5AE5);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 116.667%;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    font-family: Raleway;
+    width: 44px;
+}
+.navy-blue {
+    color: var(--navyblue, #2E2F42);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 116.667%;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    font-family: Raleway;
+    width: 71px;
+}
+.navy-blue-footer {
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 116.667%;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    color: var(--cloud, #F4F4FD);
+}
+.header-nav-webstudio-logo {
+    text-decoration: none;
+} 
 .nav-lists li a:hover , .contact-info li a:hover {
     color: blue;
 }
 .nav-lists li a:focus, .contact-info li a:focus {
     color: blue;
 }
-a:visited {
+.nav-lists li a:visited {
     color: brown;
 }
-button:hover {
+.main-order-service-button:hover {
     background-color: blue;
     cursor: pointer;
-    color: white;
+    color: var(--white);
 }
-a:focus {
-    color: blue;
-}
-button:focus {
+.main-part-button-all:hover {
     background-color: blue;
-    color: white;
+    cursor: pointer;
+    color: var(--white);
+}
+.main-part-button-web-site:hover {
+    background-color: blue;
+    cursor: pointer;
+    color: var(--white);
+}
+.main-part-button-app:hover {
+    background-color: blue;
+    cursor: pointer;
+    color: var(--white);
+}
+.main-part-button-design:hover {
+    background-color: blue;
+    cursor: pointer;
+    color: var(--white);
+}
+.main-part-button-marketing:hover {
+    background-color: blue;
+    cursor: pointer;
+    color: var(--white); 
+}
+.main-order-service-button:focus {
+    background-color: blue;
+    cursor: pointer;
+    color: var(--white);
+}
+.main-part-button-all:focus {
+    background-color: blue;
+    cursor: pointer;
+    color: var(--white);
+}
+.main-part-button-web-site:focus {
+    background-color: blue;
+    cursor: pointer;
+    color: var(--white);
+}
+.main-part-button-app:focus {
+    background-color: blue;
+    cursor: pointer;
+    color: var(--white);
+}
+.main-part-button-design:focus {
+    background-color: blue;
+    cursor: pointer;
+    color: var(--white);
+}
+.main-part-button-marketing:focus {
+    background-color: blue;
+    cursor: pointer;
+    color: var(--white); 
 }
 body {
     font-family: 'Roboto', sans-serif; 
 }
-h1 {
-    color: white;
+.main-text {
+    color: var(--white);
     text-align: center;
     font-size: 56px;
     font-style: normal;
@@ -31,21 +158,12 @@ h1 {
     line-height: 107.143%;
     letter-spacing: 1.12px;
 }
-.nav-lists-studio a:visited {
-    color: brown;
-}
-.nav-lists-portfolio a:visited {
-    color: brown;
-}
-.nav-lists-contacts a:visited {
-    color: brown;
-}
 .main {
-    background-color: #2E2F42;
+    background-color: var(--navyblue);
 }
 .nav-lists li a {
     text-decoration: none;
-    color: #2E2F42;
+    color: var(--navyblue);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -56,7 +174,7 @@ h1 {
     list-style: none;
 }
 .contact-info li a {
-    color: #434455;
+    color: var(--slate);
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -69,7 +187,7 @@ h1 {
     color: brown;
 }
 .main-order-service-button {
-    background-color: #4D5AE5;
+    background-color: var(--iris);
     display: inline-flex;
     align-items: flex-start;
     gap: 10px;
@@ -82,7 +200,7 @@ h1 {
     line-height: 150%;
     letter-spacing: 0.64px;
     font-size: 16px;
-    color: white;
+    color: var(--white);
 }
 
 .feature-lists li h3 {
@@ -91,7 +209,7 @@ h1 {
     align-items: flex-start;
     gap: 8px;
     width: 264px;
-    color: #2E2F42;
+    color: var(--navyblue);
     width: 264px
 }
 .feature-lists li p {
@@ -99,7 +217,7 @@ h1 {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.32px;
-    color: #434455;
+    color: var(--slate);
 }
 .feature-lists {
     list-style: none;
@@ -113,14 +231,14 @@ h1 {
     text-transform: capitalize;
     font-size: 36px;
     text-align: center;
-    color: #2E2F42;
+    color: var(--navyblue);
 }
 .products-and-services-details-lists li {
     width: 360px;
     list-style: none
 }
 .our-members {
-    background-color: #F4F4FD;
+    background-color: var(--cloud);
 }
 .member-lists {
     list-style: none;
@@ -129,7 +247,7 @@ h1 {
     width: 264px;
 }
 .member-lists li h3 {
-    color: #2E2F42;
+    color: var(--navyblue);
     text-align: center;
     font-style: normal;
     font-weight: 500;
@@ -138,17 +256,17 @@ h1 {
     font-size: 20px;
 }
 .member-lists li p {
-    color: #434455;
+    color: var(--slate);
     text-align: center;
     line-height: 150%;
     letter-spacing: 0.32px;
     font-size: 16px;
 }
 footer {
-    background-color: #2E2F42;
+    background-color: var(--navyblue);
 }
 .footer-description {
-    color: #F4F4FD;
+    color: var(--cloud);
     width: 264px;
     font-family: Roboto;
     font-style: normal;
@@ -158,7 +276,7 @@ footer {
     font-size: 16px;
 }
 footer a {
-    color: white;
+    color: var(--white);
     font-family: Raleway;
     font-style: normal;
     font-weight: 800;
@@ -167,18 +285,9 @@ footer a {
     text-transform: uppercase;
     font-size: 18px;
 }
-.span-web {
-    color: #4D5AE5;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 116.667%;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-    font-size: 18px;
-}
+
 .our-members-section-maintext {
-    color: #2E2F42;
+    color: var(--navyblue);
     text-align: center;
     font-style: normal;
     font-weight: 700;
@@ -188,11 +297,11 @@ footer a {
     font-size: 36px;
 }
 .main-part-button-all {
-    color: #FFF;
+    color: var(--white);
     text-align: center;
     border-radius: 4px;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-    background-color: #404BBF;
+    background-color: var(--ocean);
     display: flex;
     align-items: flex-start;
     padding: 12px 24px;
@@ -206,7 +315,7 @@ footer a {
     padding: 12px 24px;
 }
 .main-part-button-web-site, .main-part-button-app, .main-part-button-design, .main-part-button-marketing {
-    color: #4D5AE5;
+    color: var(--iris);
     text-align: center;
     font-style: normal;
     font-weight: 500;
@@ -226,7 +335,7 @@ footer a {
     
 }
 .all-services-lists li h3 {
-    color: #2E2F42;
+    color: var(--navyblue);
     font-style: normal;
     font-weight: 500;
     line-height: 120%;
@@ -234,9 +343,10 @@ footer a {
     font-size: 20px;
 }
 .all-services-lists li p {
-    color: #434455;
+    color: var(--slate);
     font-weight: 400;
     line-height: 150%;
     letter-spacing: 0.32px;
     font-size: 16px;
 }
+    
