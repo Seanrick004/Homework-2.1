@@ -43,22 +43,22 @@
     --dairy: #FCFCFC;
   }
 .iris {
-    color: var(--iris, #4D5AE5);
+    color: var(--iris);
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    line-height: 116.667%;
+    line-height: 1.17em;
     letter-spacing: 0.54px;
     text-transform: uppercase;
     font-family: Raleway;
     width: 44px;
 }
 .navy-blue {
-    color: var(--navyblue, #2E2F42);
+    color: var(--navyblue);
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    line-height: 116.667%;
+    line-height: 1.17em;
     letter-spacing: 0.54px;
     text-transform: uppercase;
     font-family: Raleway;
@@ -69,124 +69,105 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    line-height: 116.667%;
+    line-height: 1.17em;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    color: var(--cloud, #F4F4FD);
+    color: var(--cloud);
 }
 .header-nav-webstudio-logo {
     text-decoration: none;
 } 
-.nav-lists li a:hover , .contact-info li a:hover {
-    color: blue;
+.footer-logo {
+    text-decoration: none;
 }
-.nav-lists li a:focus, .contact-info li a:focus {
-    color: blue;
+.nav-link:hover , .contact-info-link:hover {
+    color: var(--ocean);
 }
-.nav-lists li a:visited {
-    color: brown;
+.nav-link:focus, .contact-info-link:focus {
+    color: var(--ocean);
 }
-.main-order-service-button:hover {
-    background-color: blue;
+.hero-order-service-button:hover {
+    background-color: var(--ocean);
     cursor: pointer;
     color: var(--white);
 }
-.main-part-button-all:hover {
-    background-color: blue;
+.categories-button:hover {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5em
+    letter-spacing: 0.64px;
+    font-family: Roboto;
+    text-align: center;
+    color: var(--white);
+    display: flex;
+    align-items: flex-start;
+    background: var(--ocean);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    padding: 12px 24px;
+    cursor:pointer
+}
+.hero-order-service-button:focus {
+    background-color: var(--ocean);
     cursor: pointer;
     color: var(--white);
 }
-.main-part-button-web-site:hover {
-    background-color: blue;
-    cursor: pointer;
+.categories-button:focus {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5em
+    letter-spacing: 0.64px;
+    font-family: Roboto;
+    text-align: center;
     color: var(--white);
-}
-.main-part-button-app:hover {
-    background-color: blue;
-    cursor: pointer;
-    color: var(--white);
-}
-.main-part-button-design:hover {
-    background-color: blue;
-    cursor: pointer;
-    color: var(--white);
-}
-.main-part-button-marketing:hover {
-    background-color: blue;
-    cursor: pointer;
-    color: var(--white); 
-}
-.main-order-service-button:focus {
-    background-color: blue;
-    cursor: pointer;
-    color: var(--white);
-}
-.main-part-button-all:focus {
-    background-color: blue;
-    cursor: pointer;
-    color: var(--white);
-}
-.main-part-button-web-site:focus {
-    background-color: blue;
-    cursor: pointer;
-    color: var(--white);
-}
-.main-part-button-app:focus {
-    background-color: blue;
-    cursor: pointer;
-    color: var(--white);
-}
-.main-part-button-design:focus {
-    background-color: blue;
-    cursor: pointer;
-    color: var(--white);
-}
-.main-part-button-marketing:focus {
-    background-color: blue;
-    cursor: pointer;
-    color: var(--white); 
+    display: flex;
+    align-items: flex-start;
+    background: var(--ocean);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    padding: 12px 24px;
 }
 body {
     font-family: 'Roboto', sans-serif; 
 }
-.main-text {
+.hero-text {
     color: var(--white);
     text-align: center;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
-    line-height: 107.143%;
+    line-height: 1.07em;
     letter-spacing: 1.12px;
 }
-.main {
+.hero {
     background-color: var(--navyblue);
 }
-.nav-lists li a {
+.nav-link {
     text-decoration: none;
     color: var(--navyblue);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 150%;
+    line-height: 1.5em;
     letter-spacing: 0.32px;
 }
-.nav-lists, .contact-info li {
+.nav-lists, .contact-info-link {
     list-style: none;
 }
-.contact-info li a {
+.contact-info-link {
     color: var(--slate);
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%;
+    line-height: 1.5em;
     letter-spacing: 0.32px;
     text-decoration: none;
 }
-.contact-info li a:visited, .nav-lists li a:visited {
+.contact-info-link:visited, .nav-link:visited {
     color: brown;
 }
-.main-order-service-button {
+.hero-order-service-button {
     background-color: var(--iris);
     display: inline-flex;
     align-items: flex-start;
@@ -197,7 +178,7 @@ body {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    line-height: 150%;
+    line-height: 1.5em;
     letter-spacing: 0.64px;
     font-size: 16px;
     color: var(--white);
@@ -215,29 +196,29 @@ body {
 .feature-lists li p {
     width: 264px;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5em;
     letter-spacing: 0.32px;
     color: var(--slate);
 }
 .feature-lists {
     list-style: none;
 }
-.products-and-services-maintext {
+.services-maintext {
     font-family: Roboto;
     font-style: normal;
     font-weight: 700;
-    line-height: 111.111%;
+    line-height: 1.11em;
     letter-spacing: 0.72px;
     text-transform: capitalize;
     font-size: 36px;
     text-align: center;
     color: var(--navyblue);
 }
-.products-and-services-details-lists li {
+.services-details-lists li {
     width: 360px;
     list-style: none
 }
-.our-members {
+.members {
     background-color: var(--cloud);
 }
 .member-lists {
@@ -251,14 +232,14 @@ body {
     text-align: center;
     font-style: normal;
     font-weight: 500;
-    line-height: 120%;
+    line-height: 1.2em;
     letter-spacing: 0.4px;
     font-size: 20px;
 }
 .member-lists li p {
     color: var(--slate);
     text-align: center;
-    line-height: 150%;
+    line-height: 1.5em;
     letter-spacing: 0.32px;
     font-size: 16px;
 }
@@ -271,7 +252,7 @@ footer {
     font-family: Roboto;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%;
+    line-height: 1.5em;
     letter-spacing: 0.32px;
     font-size: 16px;
 }
@@ -280,18 +261,18 @@ footer a {
     font-family: Raleway;
     font-style: normal;
     font-weight: 800;
-    line-height: 116.667%;
+    line-height: 1.17em;
     letter-spacing: 0.54px;
     text-transform: uppercase;
     font-size: 18px;
 }
 
-.our-members-section-maintext {
+.members-section-maintext {
     color: var(--navyblue);
     text-align: center;
     font-style: normal;
     font-weight: 700;
-    line-height: 111.111%;
+    line-height: 1.11em;
     letter-spacing: 0.72px;
     text-transform: capitalize;
     font-size: 36px;
@@ -307,45 +288,46 @@ footer a {
     padding: 12px 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: 150%;
+    line-height: 1.5em;
     letter-spacing: 0.64px;
     font-size: 16px;
     display: flex;
     align-items: flex-start;
     padding: 12px 24px;
 }
-.main-part-button-web-site, .main-part-button-app, .main-part-button-design, .main-part-button-marketing {
-    color: var(--iris);
+.categories-button {
     text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 150%;
+    line-height: 1.5em
     letter-spacing: 0.64px;
-    font-size: 16px;
-    border-radius: 4px;
-    background: var(--cloud, #F4F4FD);
-    border: 1px solid var(--cornflower, #E7E9FC);
-    display: flex;
+    color: var(--iris);
+    padding: 12px 24px;
     justify-content: center;
     align-items: center;
-    padding: 12px 24px;
+    border-radius: 4px;
+    border: 1px solid var(--cornflower);
+    background: var(--cloud);
+    display: flex;
 }
-.all-services-lists li {
+.projects-lists li {
     list-style: none;
     
 }
-.all-services-lists li h3 {
+.projects-lists li h3 {
     color: var(--navyblue);
     font-style: normal;
     font-weight: 500;
-    line-height: 120%;
+    line-height: 1.2em;
     letter-spacing: 0.4px;
     font-size: 20px;
 }
-.all-services-lists li p {
+.projects-lists li p {
     color: var(--slate);
     font-weight: 400;
-    line-height: 150%;
+    line-height: 1.5em;
     letter-spacing: 0.32px;
     font-size: 16px;
 }
