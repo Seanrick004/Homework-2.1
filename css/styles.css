@@ -2,12 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
   body {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
   }
@@ -45,7 +44,6 @@
 .iris {
     color: var(--iris);
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
     line-height: 1.17em;
     letter-spacing: 0.54px;
@@ -56,7 +54,6 @@
 .navy-blue {
     color: var(--navyblue);
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
     line-height: 1.17em;
     letter-spacing: 0.54px;
@@ -67,7 +64,6 @@
 .navy-blue-footer {
     font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
     line-height: 1.17em;
     letter-spacing: 0.54px;
@@ -77,6 +73,16 @@
 .header-nav-webstudio-logo {
     text-decoration: none;
 } 
+address {
+    font-style: normal;
+}
+button {
+    font-family:inherit;
+    border: unset;
+    outline: none;
+    cursor: pointer;
+
+}
 .footer-logo {
     text-decoration: none;
 }
@@ -88,24 +94,13 @@
 }
 .hero-order-service-button:hover {
     background-color: var(--ocean);
-    cursor: pointer;
     color: var(--white);
 }
 .categories-button:hover {
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5em
-    letter-spacing: 0.64px;
-    font-family: Roboto;
-    text-align: center;
     color: var(--white);
-    display: flex;
-    align-items: flex-start;
     background: var(--ocean);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-    padding: 12px 24px;
-    cursor:pointer
+    border-color: var(--ocean);
 }
 .hero-order-service-button:focus {
     background-color: var(--ocean);
@@ -114,11 +109,9 @@
 }
 .categories-button:focus {
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5em
     letter-spacing: 0.64px;
-    font-family: Roboto;
     text-align: center;
     color: var(--white);
     display: flex;
@@ -127,15 +120,10 @@
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
     padding: 12px 24px;
 }
-body {
-    font-family: 'Roboto', sans-serif; 
-}
 .hero-text {
     color: var(--white);
     text-align: center;
     font-size: 56px;
-    font-style: normal;
-    font-weight: 700;
     line-height: 1.07em;
     letter-spacing: 1.12px;
 }
@@ -146,7 +134,6 @@ body {
     text-decoration: none;
     color: var(--navyblue);
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5em;
     letter-spacing: 0.32px;
@@ -156,16 +143,10 @@ body {
 }
 .contact-info-link {
     color: var(--slate);
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 1.5em;
     letter-spacing: 0.32px;
     text-decoration: none;
-}
-.contact-info-link:visited, .nav-link:visited {
-    color: brown;
 }
 .hero-order-service-button {
     background-color: var(--iris);
@@ -175,8 +156,6 @@ body {
     padding: 16px 32px;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5em;
     letter-spacing: 0.64px;
@@ -184,7 +163,7 @@ body {
     color: var(--white);
 }
 
-.feature-lists li h3 {
+.feature-lists-item-text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -193,7 +172,7 @@ body {
     color: var(--navyblue);
     width: 264px
 }
-.feature-lists li p {
+.feature-lists-item-description {
     width: 264px;
     font-size: 16px;
     line-height: 1.5em;
@@ -204,9 +183,6 @@ body {
     list-style: none;
 }
 .services-maintext {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 700;
     line-height: 1.11em;
     letter-spacing: 0.72px;
     text-transform: capitalize;
@@ -227,16 +203,15 @@ body {
 .mark-guerrero-img, .tom-ford-img, .camila-garcia-img, .daniel-wilson-img {
     width: 264px;
 }
-.member-lists li h3 {
+.member-list-item-name {
     color: var(--navyblue);
     text-align: center;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.2em;
     letter-spacing: 0.4px;
     font-size: 20px;
 }
-.member-lists li p {
+.member-list-item-position {
     color: var(--slate);
     text-align: center;
     line-height: 1.5em;
@@ -249,9 +224,6 @@ footer {
 .footer-description {
     color: var(--cloud);
     width: 264px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 400;
     line-height: 1.5em;
     letter-spacing: 0.32px;
     font-size: 16px;
@@ -259,7 +231,6 @@ footer {
 footer a {
     color: var(--white);
     font-family: Raleway;
-    font-style: normal;
     font-weight: 800;
     line-height: 1.17em;
     letter-spacing: 0.54px;
@@ -270,36 +241,14 @@ footer a {
 .members-section-maintext {
     color: var(--navyblue);
     text-align: center;
-    font-style: normal;
-    font-weight: 700;
     line-height: 1.11em;
     letter-spacing: 0.72px;
     text-transform: capitalize;
     font-size: 36px;
 }
-.main-part-button-all {
-    color: var(--white);
-    text-align: center;
-    border-radius: 4px;
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-    background-color: var(--ocean);
-    display: flex;
-    align-items: flex-start;
-    padding: 12px 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5em;
-    letter-spacing: 0.64px;
-    font-size: 16px;
-    display: flex;
-    align-items: flex-start;
-    padding: 12px 24px;
-}
 .categories-button {
     text-align: center;
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5em
     letter-spacing: 0.64px;
@@ -316,17 +265,15 @@ footer a {
     list-style: none;
     
 }
-.projects-lists li h3 {
+.projects-lists-item-text {
     color: var(--navyblue);
-    font-style: normal;
     font-weight: 500;
     line-height: 1.2em;
     letter-spacing: 0.4px;
     font-size: 20px;
 }
-.projects-lists li p {
+.projects-lists-item-subtext {
     color: var(--slate);
-    font-weight: 400;
     line-height: 1.5em;
     letter-spacing: 0.32px;
     font-size: 16px;
